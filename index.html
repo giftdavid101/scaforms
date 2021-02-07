@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Yusei+Magic&display=swap"
+          rel="stylesheet">
+    <title>Forms</title>
+</head>
+<body>
+<div class="main">
+    <div class="emage-div">
+        <!-- <img alt="Work meetings" src="./assets/images/Work.jpg"> -->
+    </div>
+    <div class="content">
+        <div>
+            <h1>Lets work together</h1>
+            <p>We'd love to hear from you &excl; <br>
+                Send us a form a message using the form opposite or email us.
+                We'd love to hear from you &excl; <br>
+                Send us a form a message using the form opposite or email us. We'd love to hear from you
+            </p>
+            <div>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input class="inp" id="fname" name="fname" type="text" required ><br>
+                    <label for="lname">Last name:</label><br>
+                    <input class="inp"  id="lname" name="lname" type="text" required ><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input class="inp" id="email" name="email" type="email" required ><br>
+                    <label for="company">Company:</label><br>
+                    <input class="inp"  id="company" name="company" type="text" required><br><br>
+                    <label for="phone">Phone: <span>optional</span></label><br>
+                    <input class="inp" id="phone" name="phone" type="number" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea cols="30" id="message" name="message" rows="10" required  ></textarea>
+                    <div>
+                        <p class="exp-bgt">Expected Budget</p>
+
+                        <div class="radeo-inp">
+                            <input id="p1" type="radio" required>
+                            <label for="p1">Less than 25K</label>
+                        </div>
+                        <div class="radeo-inp">
+                            <input id="p2" type="radio"  >
+                            <label for="p2">25</label>
+                        </div>
+
+
+                        <div class="radeo-inp">
+                            <input id="p3" type="radio">
+                            <label for="p3">50-100</label>
+                        </div>
+                        <div class="radeo-inp">
+                            <input id="p4" type="radio" >
+                            <label for="p4">100k+</label>
+                        </div>
+
+                        <div>
+                            <label for="info">How did you hear about us</label>
+                            <div>
+                                 <input class="inp" id="info" name="info" type="text" required >
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <input class="btn" type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
